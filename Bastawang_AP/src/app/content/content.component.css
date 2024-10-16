@@ -1,0 +1,44 @@
+.jumbotron {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 2rem 1rem; /* Padding for the jumbotron */
+  border-radius: 0.3rem; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.login-form {
+  background-color: #f2f2f2; /* Light background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make the form full width */
+}
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}

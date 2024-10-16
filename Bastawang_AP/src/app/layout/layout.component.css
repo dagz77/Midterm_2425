@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.app-content {
+  flex: 1; /* Allow content to grow and take up available space */
+}

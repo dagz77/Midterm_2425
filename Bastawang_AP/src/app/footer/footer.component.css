@@ -1,0 +1,25 @@
+.footer {
+  background-color: #f8f9fa; /* Light background for the footer */
+  padding: 20px 0; /* Padding for the footer */
+  position: relative; /* Make sure it is positioned relative */
+  width: 100%; /* Full width */
+  bottom: 0; /* Align to the bottom */
+}
+
+.row {
+  display: flex; /* Use flexbox for the columns */
+  justify-content: space-between; /* Space between columns */
+}
+
+.card {
+  margin: 10px; /* Margin for the cards */
+  flex: 1; /* Allow cards to grow equally */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Title size */
+}
+
+.card-text {
+  margin-bottom: 1rem; /* Spacing for card text */
+}
