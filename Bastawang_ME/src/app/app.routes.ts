@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
@@ -11,7 +12,9 @@ export const routes: Routes = [
   {path: 'abt', component:AboutComponent},
   {path: 'svcs', component:ServicesComponent},
   {path: 'cntc', component:ContactComponent},
-  { path: '**', component: NotFoundComponent }
+  { path: 'login', component: LoginFormComponent },
+  {path: '**', component: NotFoundComponent },
+
 ];
 
 @NgModule({

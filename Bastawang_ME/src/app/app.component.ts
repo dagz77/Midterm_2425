@@ -5,16 +5,14 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    HomeComponent,
-    AboutComponent,
-    ServicesComponent,
-    ContactComponent,
-    NotFoundComponent,
+    FormsModule,
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
